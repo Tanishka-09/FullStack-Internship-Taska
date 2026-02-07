@@ -5,7 +5,7 @@ Each task focuses on building core front-end skills using modern web technologie
 
  📂 Tasks Overview
 
-### ✅ Task 1: Portfolio Website
+###  Task 1: Portfolio Website
 A responsive portfolio-style website built using **HTML, Tailwind CSS, and JavaScript**.
 
 Features:
@@ -22,7 +22,7 @@ HTML • Tailwind CSS • JavaScript
 
 -------------------------------------------
 
-### ✅ Task 2: Responsive E-commerce Landing Page
+###  Task 2: Responsive E-commerce Landing Page
 A modern landing page for an e-commerce website with interactive elements.
 
 Features:
@@ -39,7 +39,7 @@ HTML • Tailwind CSS • JavaScript
 
 -------------------------------------------------
 
-### ✅ Task 3: React To-Do Application
+###  Task 3: React To-Do Application
 A simple and functional **React.js** application demonstrating front-end framework basics.
 
 **Features:**
