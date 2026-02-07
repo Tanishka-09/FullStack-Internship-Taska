@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Portfolio Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gradient-to-br from-gray-100 via-slate-100 to-gray-200 text-gray-800">
+
+  <!-- Navbar -->
+  <nav class="bg-gray-900/90 backdrop-blur text-white p-4 sticky top-0 z-50 shadow-md">
+    <ul class="flex justify-center space-x-8 font-semibold tracking-wide">
+      <li><a href="#home" class="hover:text-teal-400 transition">Home</a></li>
+      <li><a href="#projects" class="hover:text-teal-400 transition">Projects</a></li>
+      <li><a href="#contact" class="hover:text-teal-400 transition">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="text-center py-24 bg-gradient-to-r from-slate-900 via-gray-800 to-slate-900 text-white">
+    <h1 class="text-5xl font-extrabold mb-6 tracking-tight">
+      Portfolio Website
+    </h1>
+    <p class="text-xl text-gray-300 max-w-2xl mx-auto">
+      A modern, responsive portfolio website built using Tailwind CSS and JavaScript.
+    </p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="max-w-6xl mx-auto p-10">
+    <h2 class="text-3xl font-bold text-center mb-12">Projects</h2>
+
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="bg-white/90 backdrop-blur p-8 rounded-2xl shadow-lg hover:shadow-xl hover:-translate-y-1 transition">
+        <h3 class="font-bold text-xl mb-3">Project One</h3>
+        <p class="text-gray-600">Project description placeholder.</p>
+      </div>
+
+      <div class="bg-white/90 backdrop-blur p-8 rounded-2xl shadow-lg hover:shadow-xl hover:-translate-y-1 transition">
+        <h3 class="font-bold text-xl mb-3">Project Two</h3>
+        <p class="text-gray-600">Project description placeholder.</p>
+      </div>
+
+      <div class="bg-white/90 backdrop-blur p-8 rounded-2xl shadow-lg hover:shadow-xl hover:-translate-y-1 transition">
+        <h3 class="font-bold text-xl mb-3">Project Three</h3>
+        <p class="text-gray-600">Project description placeholder.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="max-w-xl mx-auto bg-white/90 backdrop-blur p-10 rounded-2xl shadow-xl mb-16">
+    <h2 class="text-3xl font-bold text-center mb-8">Contact Me</h2>
+
+    <form onsubmit="return validateForm()">
+      <div class="mb-5">
+        <label class="block font-semibold mb-1">Name</label>
+        <input
+          type="text"
+          id="name"
+          class="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-400"
+        />
+      </div>
+
+      <div class="mb-5">
+        <label class="block font-semibold mb-1">Email</label>
+        <input
+          type="email"
+          id="email"
+          class="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-400"
+        />
+      </div>
+
+      <div class="mb-5">
+        <label class="block font-semibold mb-1">Message</label>
+        <textarea
+          id="message"
+          rows="4"
+          class="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-400"
+        ></textarea>
+      </div>
+
+      <p id="error" class="text-red-500 mb-4 text-center"></p>
+
+      <button
+        type="submit"
+        class="w-full bg-gradient-to-r from-teal-500 to-indigo-500 text-white py-3 rounded-lg font-semibold hover:opacity-90 transition"
+      >
+        Submit
+      </button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-400 text-center p-6">
+    © 2026 Portfolio Website · Built with Tailwind CSS
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

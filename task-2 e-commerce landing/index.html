@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ShopEase | E-commerce Landing</title>
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- NAVBAR -->
+  <nav class="bg-white shadow-md">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-indigo-600">ShopEase</h1>
+      <ul class="flex space-x-6 font-medium">
+        <li><a href="#" class="hover:text-indigo-600">Home</a></li>
+        <li><a href="#products" class="hover:text-indigo-600">Products</a></li>
+        <li><a href="#contact" class="hover:text-indigo-600">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section class="bg-indigo-600 text-white py-20">
+    <div class="max-w-7xl mx-auto px-6 text-center">
+      <h2 class="text-4xl md:text-5xl font-bold mb-4">
+        Upgrade Your Style
+      </h2>
+      <p class="text-lg mb-6">
+        Discover premium products at affordable prices
+      </p>
+      <button class="bg-white text-indigo-600 px-6 py-3 rounded-full font-semibold hover:bg-gray-200">
+        Shop Now
+      </button>
+    </div>
+  </section>
+
+  <!-- PRODUCTS SECTION -->
+  <section id="products" class="py-16">
+    <div class="max-w-7xl mx-auto px-6">
+      <h3 class="text-3xl font-bold text-center mb-10">Featured Products</h3>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+        <!-- Product Card -->
+        <div class="bg-white shadow-lg rounded-lg p-6 text-center">
+          <h4 class="font-semibold text-xl mb-2">Wireless Headphones</h4>
+          <p class="text-gray-600 mb-4">High quality sound experience</p>
+          <p class="font-bold text-indigo-600 mb-4">₹2,999</p>
+          <button class="bg-indigo-600 text-white px-4 py-2 rounded hover:bg-indigo-700">
+            Add to Cart
+          </button>
+        </div>
+
+        <div class="bg-white shadow-lg rounded-lg p-6 text-center">
+          <h4 class="font-semibold text-xl mb-2">Smart Watch</h4>
+          <p class="text-gray-600 mb-4">Track your fitness & health</p>
+          <p class="font-bold text-indigo-600 mb-4">₹4,499</p>
+          <button class="bg-indigo-600 text-white px-4 py-2 rounded hover:bg-indigo-700">
+            Add to Cart
+          </button>
+        </div>
+
+        <div class="bg-white shadow-lg rounded-lg p-6 text-center">
+          <h4 class="font-semibold text-xl mb-2">Bluetooth Speaker</h4>
+          <p class="text-gray-600 mb-4">Powerful bass & clear sound</p>
+          <p class="font-bold text-indigo-600 mb-4">₹1,999</p>
+          <button class="bg-indigo-600 text-white px-4 py-2 rounded hover:bg-indigo-700">
+            Add to Cart
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT / NEWSLETTER -->
+  <section id="contact" class="bg-gray-100 py-16">
+    <div class="max-w-xl mx-auto px-6">
+      <h3 class="text-3xl font-bold text-center mb-6">
+        Stay Updated
+      </h3>
+
+      <form onsubmit="return validateEmail()" class="bg-white shadow-md rounded-lg p-6">
+        <label class="block mb-2 font-medium">Email Address</label>
+        <input
+          type="email"
+          id="email"
+          class="w-full border border-gray-300 rounded px-4 py-2 mb-4"
+          placeholder="Enter your email"
+        />
+        <p id="error" class="text-red-500 text-sm mb-4"></p>
+
+        <button
+          type="submit"
+          class="w-full bg-indigo-600 text-white py-2 rounded hover:bg-indigo-700"
+        >
+          Subscribe
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <
