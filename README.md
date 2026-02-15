@@ -63,23 +63,21 @@ cd task-3-react-todo
 npm install
 npm start
 
---------------------------------------------------
+---
 
-### ✅ Task 4: REST API Development
+✅Task 4: REST API (Node.js & Express)
 
-A backend application demonstrating RESTful API concepts using Node.js and Express.
+A simple RESTful API demonstrating backend development concepts such as routing, controllers, and HTTP methods.
 
-**Features:**
+Features:
 
-Create users (POST)
+Create, Read, Update, Delete (CRUD) operations
 
-Fetch all users (GET)
+RESTful API structure
 
-Update user details (PUT)
+JSON-based request & response handling
 
-Delete users (DELETE)
-
-Proper HTTP status codes
+Modular folder structure
 
 Tech Stack:
 
@@ -87,31 +85,28 @@ Node.js · Express.js · JavaScript
 
 📁 Folder: task-4-rest-api
 
-🛠 How to Run Task 4 (REST API)
+🛠️ How to Run Task 4 (REST API)
 cd task-4-rest-api
 npm install
-node index.js
+npm start
 
+Server will run on http://localhost:3000
 
-Server runs on:
+---
 
-http://localhost:3000
+✅Task 5: Database Integration (Node.js + MySQL)
 
-----------------------------------------------------------
-
-### ✅ Task 5: Database Integration (MySQL)
-
-A backend project demonstrating MySQL database integration with Node.js.
+A backend application demonstrating database connectivity and queries using MySQL with Node.js.
 
 Features:
 
-MySQL database connection
+MySQL database integration
 
-Store and retrieve data from database
+CRUD operations using SQL queries
 
-Perform CRUD operations using SQL
+Proper error handling
 
-Structured backend code
+Separation of database logic
 
 Tech Stack:
 
@@ -119,39 +114,34 @@ Node.js · Express.js · MySQL
 
 📁 Folder: task-5-db-integration
 
-🛠 How to Run Task 5 (DB Integration)
+🛠️ How to Run Task 5 (DB Integration)
 cd task-5-db-integration
 npm install
 node index.js
 
-----------------------------------------------------
+-----------------------------------------------------------
 
-### ✅ Task 6: Full Stack Application
+### ✅Task 6: Full Stack Application (MERN + MySQL)
 
-A complete Full Stack User Management System with frontend, backend, and database.
+A complete full-stack application combining frontend, backend, and database into one project.
 
 Features:
 
-Add user details
+Frontend UI
 
-Display users in table
+Backend REST API
 
-Delete users
+Database integration
 
-Frontend–backend communication using Fetch API
-
-Clean UI and structured code
+End-to-end data flow
 
 Tech Stack:
 
-Frontend: HTML · CSS · JavaScript
-Backend: Node.js · Express.js
-Database: MySQL
+HTML · CSS · JavaScript · Node.js · Express.js · MySQL
 
 📁 Folder: task-6-fullstack
 
-🛠 How to Run Task 6 (Full Stack)
-Backend
+🛠️ How to Run Task 6 (Full Stack App)
 cd task-6-fullstack/backend
 npm install
 node index.js
