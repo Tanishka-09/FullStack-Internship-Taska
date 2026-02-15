@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>User Management System</title>
+
+  <!-- Responsive -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h1>User Management System</h1>
+
+    <!-- User Form -->
+    <form id="userForm">
+      <!-- Hidden field for edit -->
+      <input type="hidden" id="userId" />
+
+      <input
+        type="text"
+        id="name"
+        placeholder="Name"
+        required
+      />
+
+      <input
+        type="email"
+        id="email"
+        placeholder="Email"
+        required
+      />
+
+      <input
+        type="number"
+        id="age"
+        placeholder="Age"
+        required
+      />
+
+      <!-- IMPORTANT: id added for JS control -->
+      <button type="submit" id="submitBtn">Add User</button>
+    </form>
+
+    <!-- Users Table -->
+    <h2>Users List</h2>
+
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Age</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+
+      <tbody id="usersTable">
+        <!-- Rows added dynamically -->
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+</html>
