@@ -62,3 +62,99 @@ React.js • JavaScript • CSS
 cd task-3-react-todo
 npm install
 npm start
+
+--------------------------------------------------
+### ✅ Task 4: REST API Development
+
+A backend application demonstrating RESTful API concepts using Node.js and Express.
+
+Features:
+
+Create users (POST)
+
+Fetch all users (GET)
+
+Update user details (PUT)
+
+Delete users (DELETE)
+
+Proper HTTP status codes
+
+Tech Stack:
+
+Node.js · Express.js · JavaScript
+
+📁 Folder: task-4-rest-api
+
+🛠 How to Run Task 4 (REST API)
+cd task-4-rest-api
+npm install
+node index.js
+
+
+Server runs on:
+
+http://localhost:3000
+
+✅ Task 5: Database Integration (MySQL)
+
+A backend project demonstrating MySQL database integration with Node.js.
+
+Features:
+
+MySQL database connection
+
+Store and retrieve data from database
+
+Perform CRUD operations using SQL
+
+Structured backend code
+
+Tech Stack:
+
+Node.js · Express.js · MySQL
+
+📁 Folder: task-5-db-integration
+
+🛠 How to Run Task 5 (DB Integration)
+cd task-5-db-integration
+npm install
+node index.js
+
+----------------------------------------------------
+
+✅ Task 6: Full Stack Application
+
+A complete Full Stack User Management System with frontend, backend, and database.
+
+Features:
+
+Add user details
+
+Display users in table
+
+Delete users
+
+Frontend–backend communication using Fetch API
+
+Clean UI and structured code
+
+Tech Stack:
+
+Frontend: HTML · CSS · JavaScript
+Backend: Node.js · Express.js
+Database: MySQL
+
+📁 Folder: task-6-fullstack
+
+🛠 How to Run Task 6 (Full Stack)
+Backend
+cd task-6-fullstack/backend
+npm install
+node index.js
+
+Frontend
+
+Open:
+
+task-6-fullstack/frontend/index.html
