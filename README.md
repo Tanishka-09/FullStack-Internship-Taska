@@ -64,11 +64,12 @@ npm install
 npm start
 
 --------------------------------------------------
+
 ### ✅ Task 4: REST API Development
 
 A backend application demonstrating RESTful API concepts using Node.js and Express.
 
-Features:
+**Features:**
 
 Create users (POST)
 
@@ -96,7 +97,9 @@ Server runs on:
 
 http://localhost:3000
 
-✅ Task 5: Database Integration (MySQL)
+----------------------------------------------------------
+
+### ✅ Task 5: Database Integration (MySQL)
 
 A backend project demonstrating MySQL database integration with Node.js.
 
@@ -123,7 +126,7 @@ node index.js
 
 ----------------------------------------------------
 
-✅ Task 6: Full Stack Application
+### ✅ Task 6: Full Stack Application
 
 A complete Full Stack User Management System with frontend, backend, and database.
 
